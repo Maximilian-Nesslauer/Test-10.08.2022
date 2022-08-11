@@ -57,10 +57,10 @@
   
   header {
     text-align: center;
-    background: url(images/background_header_pexels-pixabay.jpg) no-repeat center top ;
+    background: url('images/background_header_pexels-pixabay.jpg') no-repeat center top ;
     background-size: cover;
     overflow: hidden;
-    padding-top: 60px;
+    padding-top: 15%;
   }
   header {
     line-height: 1.5;
