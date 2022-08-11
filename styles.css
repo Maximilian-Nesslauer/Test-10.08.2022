@@ -114,7 +114,6 @@
     height: auto;
     border-radius: 5%;
   }
-  
   ul.skills {
     padding: 0;
     text-align: center;
@@ -217,5 +216,34 @@
     }
   
   }
-  
-  
+
+  @media (max-width: 450px) {
+    .home-picture {
+      width: 250px;
+      height: auto;
+      border-radius: 5%;
+    }
+    header {
+      text-align: center;
+      background: url('images/background_header_pexels-pixabay.jpg') no-repeat center top ;
+      background-size: cover;
+      overflow: hidden;
+      padding-top: 80%;
+    }
+    .tag {
+      background-color: #efefef9f;
+      color: black;
+      padding: 10px;
+      border-radius: 5px;
+      display: table;
+      margin: 10px auto;
+    } 
+    .location {
+      background-color: #222;
+      color: yellow;
+    }
+    .card-picture {
+      clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+      max-width: 280px;
+    }
+  }
