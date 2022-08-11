@@ -57,7 +57,7 @@
   
   header {
     text-align: center;
-    background: url('images/background_header-min.jpg') no-repeat center top ;
+    background: url(images/background_header_pexels-pixabay.jpg) no-repeat center top ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -65,18 +65,7 @@
   header {
     line-height: 1.5;
   }
-  header .profile-image {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid black;
-    transition: all .5s;
-  }
-  header .profile-image:hover {
-    transform: scale(1.2) rotate(7deg);
-    border: 3px solid #20B2AA;
-  }
+
   .tag {
     background-color: #efefef;
     color: black;
